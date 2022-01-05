@@ -13,15 +13,15 @@ Install Eclipse IDE in Debian and Ubuntu
 A Java 9 or newer JRE/JDK is required to install Eclipse IDE and the easiest way to install Oracle Java JDK using third party PPA as shown.
 
 Install Java on Ubuntu/Debian
-$ sudo apt install default-jre
+<h3>$ sudo apt install default-jre</h3>
 For installing Eclipse IDE in your system, first, open a browser and go to Eclipse’s official download page and download the latest version of the tar package specific to your installed Linux distribution architecture.
 
 Alternatively, you can also download the Eclipse IDE tarball installer file in your system via wget utility, by issuing the below command.
 
-$ wget http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/epp/2020-06/R/eclipse-inst-linux64.tar.gz
+<h3>$ wget http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/epp/2020-06/R/eclipse-inst-linux64.tar.gz </h3>
 After the download completes, navigate to the directory where the archive package has been downloaded, usually Downloads directories from your home, and issue the below commands to start installing Eclipse IDE.
 
-$ tar -xvf eclipse-inst-linux64.tar.gz 
-$ cd eclipse-installer/
-$ sudo ./eclipse-inst
+<h3>$ tar -xvf eclipse-inst-linux64.tar.gz </h3>
+<h3>$ cd eclipse-installer/ </h3>
+<h3>$ sudo ./eclipse-inst</h3>
 The new Eclipse Installer lists the IDE’s available to Eclipse users. You can choose and click on the IDE package you want to install.
